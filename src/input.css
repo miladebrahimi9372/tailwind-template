@@ -1,1 +1,91 @@
+@font-face {
+  font-family: Vazirmatn RD;
+  src: url("fonts/Vazirmatn-RD-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn RD;
+  src: url("fonts/Vazirmatn-RD-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn RD;
+  src: url("fonts/Vazirmatn-RD-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn RD;
+  src: url("fonts/Vazirmatn-RD-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn RD;
+  src: url("fonts/Vazirmatn-RD-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn RD;
+  src: url("fonts/Vazirmatn-RD-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn RD;
+  src: url("fonts/Vazirmatn-RD-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn RD;
+  src: url("fonts/Vazirmatn-RD-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Vazirmatn RD;
+  src: url("fonts/Vazirmatn-RD-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 @import "tailwindcss";
+
+@theme {
+  /* Custom Breakpoints */
+  --breakpoint-md: 52.5rem;
+
+  /* Custom Fonts */
+  --font-vazirmatn: "Vazirmatn RD";
+
+  /* Custom Colors */
+  --color-main_digikala: #ef4056;
+  --color-menu_bg_dark: rgba(0, 0, 0, 0.2);
+  --color-gray: #ccc;
+  --color-red: #f00;
+  --color-gray_light: #eee;
+  --color-text_dark: #fff;
+  --color-bg_dark1: #242424;
+  --color-bg_dark2: #000;
+}
